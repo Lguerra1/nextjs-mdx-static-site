@@ -18,6 +18,7 @@ Gatsby is brilliant at what it does! But, 1) I wanted to learn Next. 2) I wanted
 I'm using the following:
 - [Emotion](https://emotion.sh/) for styling.
 - [Typography.js](https://kyleamathews.github.io/typography.js/) for text styling.
+- [react-share](https://github.com/nygardk/react-share) for the tweetz and likes.
 
 ## Content
 There are multiple types of content.
