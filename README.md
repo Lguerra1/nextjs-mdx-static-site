@@ -1,6 +1,8 @@
 [MDX](https://mdxjs.com/) + [Next](https://nextjs.org/) = ❤
 =========
 
+Demo: [https://nextjs-mdx-static-site.netlify.com/](https://nextjs-mdx-static-site.netlify.com/)
+
 Big thanks to the folks behind [MDX](https://mdxjs.com/) and [Next](https://nextjs.org/).
 
 Also props to [messa](https://github.com/messa/nextjs-mdx-blog-example) & [johnlindquist](https://github.com/johnlindquist/next-mdx-blog) for doing this first.
