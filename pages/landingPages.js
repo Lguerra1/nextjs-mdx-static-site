@@ -5,7 +5,6 @@ import Head from '../components/Head';
 import { landingPages } from '../utils/exportPosts';
 
 const LandingPage = withRouter(({ router: { query: { url } } }) => {
-  console.log('url', url);
   const { title, Component } = _.find(landingPages, { url: url });
   return (
     <>
