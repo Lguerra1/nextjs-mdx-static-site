@@ -11,10 +11,6 @@ We were evaluating new options for our company site at [Grow](https://grow.com).
 
 Also I wanted to build a personal site where I could easily mix React components with text content.
 
-Why not use [Gatsby](https://www.gatsbyjs.org/)?
-
-Gatsby is brilliant at what it does! But, 1) I wanted to learn Next. 2) I wanted to use a technology that had broader application.
-
 I'm using the following:
 - [Emotion](https://emotion.sh/) for styling.
 - [Typography.js](https://kyleamathews.github.io/typography.js/) for text styling.
