@@ -1,6 +1,8 @@
 [MDX](https://mdxjs.com/) + [Next](https://nextjs.org/) = ❤
 =========
 
+Demo: [https://nextjs-mdx-static-site.netlify.com/](https://nextjs-mdx-static-site.netlify.com/)
+
 Big thanks to the folks behind [MDX](https://mdxjs.com/) and [Next](https://nextjs.org/).
 
 Also props to [messa](https://github.com/messa/nextjs-mdx-blog-example) & [johnlindquist](https://github.com/johnlindquist/next-mdx-blog) for doing this first.
@@ -9,13 +11,10 @@ We were evaluating new options for our company site at [Grow](https://grow.com).
 
 Also I wanted to build a personal site where I could easily mix React components with text content.
 
-Why not use [Gatsby](https://www.gatsbyjs.org/)?
-
-Gatsby is brilliant at what it does! But, 1) I wanted to learn Next. 2) I wanted to use a technology that had broader application.
-
 I'm using the following:
 - [Emotion](https://emotion.sh/) for styling.
 - [Typography.js](https://kyleamathews.github.io/typography.js/) for text styling.
+- [react-share](https://github.com/nygardk/react-share) for the tweetz and likes.
 
 ## Content
 There are multiple types of content.
