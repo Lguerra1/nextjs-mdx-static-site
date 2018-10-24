@@ -6,12 +6,42 @@ export const meta = {
 
 import Component from '~/posts/postWithComponent/Component';
 import Container from '~/components/Container';
+import {Radar} from 'react-chartjs-2';
 
 <Container>
 
 Lucas ipsum dolor sit amet chewbacca obi-wan gamorrean dooku calrissian ahsoka greedo padmé obi-wan dooku. Luke antilles fisto moff. Owen vader thrawn sidious solo darth darth. Organa c-3po fett han maul calamari. Sith hutt calamari mace luke coruscant binks. Darth ventress luke moff yavin. Endor darth windu sidious vader kenobi moff anakin solo. Yoda solo leia moff antilles lobot. Jawa jabba ewok lando sidious. Moff wedge kamino palpatine naboo leia solo. Darth ahsoka yoda c-3p0 amidala owen calamari.
 
 <Component/>
+
+<Radar data={
+{
+  labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
+  datasets: [
+    {
+      label: 'My First dataset',
+      backgroundColor: 'rgba(179,181,198,0.2)',
+      borderColor: 'rgba(179,181,198,1)',
+      pointBackgroundColor: 'rgba(179,181,198,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(179,181,198,1)',
+      data: [65, 59, 90, 81, 56, 55, 40]
+    },
+    {
+      label: 'My Second dataset',
+      backgroundColor: 'rgba(255,99,132,0.2)',
+      borderColor: 'rgba(255,99,132,1)',
+      pointBackgroundColor: 'rgba(255,99,132,1)',
+      pointBorderColor: '#fff',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(255,99,132,1)',
+      data: [28, 48, 40, 19, 96, 27, 100]
+    }
+  ]
+}
+}/>
+
 
 Bespin fett dagobah mandalore moff antilles mustafar mon ben. Coruscant solo fett fett mara organa jango. Fett skywalker mace greedo. Twi'lek c-3p0 utapau hutt thrawn hutt. Fett solo jade kit naboo leia darth. Moff dantooine alderaan kessel gonk. Gamorrean jinn mace hoth organa. Moff dantooine cade jade darth maul solo darth jango. Solo twi'lek moff sith amidala jabba antilles. Luke anakin darth vader. Padmé leia mara moff zabrak. Kamino mothma binks padmé. Kessel han skywalker solo maul dagobah jar hutt hutt.
 
